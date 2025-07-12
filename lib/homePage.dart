@@ -3,7 +3,6 @@ import 'package:stemtech1/about.dart';
 import 'package:stemtech1/call_us.dart';
 import 'package:stemtech1/items.dart';
 import 'package:stemtech1/setting.dart';
-import 'package:stemtech1/your_card.dart';
 
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
@@ -51,12 +50,7 @@ class _HomepageState extends State<Homepage> {
                   Padding(
                     padding: const EdgeInsets.only(left: 10),
                     child: TextButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => YourCard()),
-                        );
-                      },
+                      onPressed: () {},
                       child: Text(
                         'Your Card',
                         style: TextStyle(color: Colors.black),

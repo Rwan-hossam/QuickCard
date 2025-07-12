@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:stemtech1/childrenitems.dart';
-import 'package:stemtech1/your_card.dart';
 
 class Womenitems extends StatefulWidget {
   const Womenitems({super.key});

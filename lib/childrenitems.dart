@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:stemtech1/your_card.dart';
 
 class Childrenitems extends StatefulWidget {
   const Childrenitems({super.key});
@@ -255,12 +254,7 @@ class _ChildrenitemsState extends State<Childrenitems> {
               padding: const EdgeInsets.only(top: 1050, bottom: 30),
               child: Center(
                 child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => YourCard()),
-                    );
-                  },
+                  onPressed: () {},
                   child: Text(
                     'Your Card',
                     style: TextStyle(fontSize: 18, color: Colors.black),
